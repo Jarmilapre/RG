@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Nav from "../components/Nav"
+import "bootstrap/dist/css/bootstrap.min.css";
+import Container from "react-bootstrap/Container";
 export default () => {
   return (
-    <>
+    <Container>
       <Head>
         <title>About me</title>
       </Head>
@@ -20,6 +22,6 @@ export default () => {
         I was born 26th of May 2015 close to Hradec Kralove. Now, I live in
         Prague with my best owners Ondrej and Zuzka.
       </p>
-    </>
+    </Container>
   );
 };
