@@ -3,5 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "repository": "https://github.com/Jarmilapre/RG.git",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "prettier": "^1.19.1"
+  },
+  "scripts": {
+    "prettier-check": "prettier -l '**/*.js'",
+    "prettier-write": "prettier --write '**/*.js'"
+  }
 }
