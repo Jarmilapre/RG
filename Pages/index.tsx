@@ -1,3 +1,9 @@
 export default () => {
-    return <div>Welcome to Next.js!</div>;
-  };
+  return (
+    <div>
+      <h1>
+        <b>React Girls</b>
+      </h1>
+    </div>
+  );
+};
