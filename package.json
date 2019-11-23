@@ -5,10 +5,19 @@
   "repository": "https://github.com/Jarmilapre/RG.git",
   "license": "MIT",
   "devDependencies": {
-    "prettier": "^1.19.1"
+    "@types/node": "^12.12.12",
+    "@types/react": "^16.9.12",
+    "prettier": "^1.19.1",
+    "typescript": "^3.7.2"
   },
   "scripts": {
+    "dev": "next",
     "prettier-check": "prettier -l '**/*.js'",
     "prettier-write": "prettier --write '**/*.js'"
+  },
+  "dependencies": {
+    "next": "^9.1.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
   }
 }
