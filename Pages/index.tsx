@@ -1,5 +1,4 @@
 import Head from "next/head";
-import Nav from "../components/Nav"
 import "bootstrap/dist/css/bootstrap.min.css";
 import Container from "react-bootstrap/Container";
 export default () => {
@@ -8,7 +7,6 @@ export default () => {
       <Head>
         <title>About me</title>
       </Head>
-      <Nav />
       <p>
         Ahoy, I'm Nela,
         <br />

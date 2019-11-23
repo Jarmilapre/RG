@@ -1,13 +1,10 @@
 import Head from "next/head";
-import Nav from "../components/Nav"
-
 export default () => {
   return (
     <>
       <Head>
         <title>Contact me</title>
       </Head>
-      <Nav />
       <p>
         I'm <a href="https://instagram.com/jsemnela">@jsemnela</a> on Instagram,
         you can write me there. You can also follow my owners{" "}
