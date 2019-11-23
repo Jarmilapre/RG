@@ -1,9 +1,8 @@
+import Hello from "../components/Hello";
 export default () => {
   return (
     <div>
-      <h1>
-        <b>React Girls</b>
-      </h1>
+        <Hello name="Já"/>
     </div>
   );
 };
